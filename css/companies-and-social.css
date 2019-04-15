@@ -70,7 +70,7 @@ TWITTER FEED
 {
   box-shadow: 0px 0px 10px 1px #888888;
   margin:auto;
-  border-radius:20px;
+  border-radius:10px;
   position:relative;
 }
 
@@ -89,7 +89,9 @@ TWITTER FEED
   overflow: overlay;
 }
 
-.twitter-wrapper .card .card-body{}
+/* .twitter-wrapper .card .card-body{
+
+} */
 
 .twitter-wrapper .card .card-body .card-title
 {
@@ -129,14 +131,16 @@ TWITTER FEED
   FACEBOOK FEED
 */
 
-<<<<<<< HEAD
-.fa-facebook
+.card-button .fa-facebook
 {
   color:#3b5998;
-  margin: 0;
+  margin: 0 5px 0 0;
 }
-=======
->>>>>>> 01a02736c104a3bd9a93b9f7d60a8e929a2403cf
+
+.contact-btn {
+  height: 45px;
+  padding-top: 10px;
+}
 
 .facebook-wrapper .facebook-logo-img
 {
@@ -150,7 +154,7 @@ TWITTER FEED
   flex: 1;
   padding: 0;
   flex-basis: auto;
-  margin:20px auto;
+  margin:20px 20px 20px 0;
   padding:0;
 }
 
@@ -159,8 +163,38 @@ TWITTER FEED
   width:100%;
   box-shadow: 0px 0px 10px 1px #888888;
   margin: 0 auto;
-  border-radius: 20px;
+  border-radius: 10px;
   position: relative;
+}
+
+.fbook-card-title {
+  max-height: 12em;
+}
+
+.fbook-title-group {
+  display: inline-flex;
+}
+
+.fbook-card-body p,
+.fbook-card-body h5{
+  color: black;
+}
+
+.fbook-title-group h5 {
+  font-size: 1.5rem;
+  padding: 10px 0 0 10px;
+}
+
+.fbookContentContainer{
+  max-height: 380px;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fbook-card-body p {
+  margin: 10px 0 0 50px;
 }
 
 .facebook-wrapper .card-button .btn
@@ -180,9 +214,28 @@ TWITTER FEED
 .facebook-wrapper .card-img-top
 {
   z-index:1;
-  height: 14em;
+  height: 12em;
   position:absolute;
-  border-radius: 20px 20px 0 0;
+  border-radius: 10px 10px 0 0;
+  filter: brightness(0.5);
+}
+
+.logo-title-likes{
+  display: inline-flex;
+  margin-bottom: 40px;
+}
+
+.fbook-title-likes{
+  margin-left: 10px;
+}
+
+.logo-title-likes h5:first-child{
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.logo-title-likes h5:nth-child(2){
+  font-size: 1rem;
 }
 
 .facebook-wrapper .card-body:first-of-type
@@ -191,13 +244,70 @@ TWITTER FEED
   color:white;
 }
 
+.fbook-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
 .twitter-wrapper,
 .facebook-wrapper
 {
   margin:20px auto;
 }
 
-@@media (min-width: 576px) {
+.title-date{
+  padding-left: 5px;
+}
+
+.title-date h5:first-child{
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.title-date h5:nth-child(2){
+  font-size: .8rem;
+  color: grey;
+  padding: 5px 0 0;
+  margin: 0;
+}
+
+.fbook-line{
+  width: 300px;
+  align-self: center;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  overflow: hidden
+}
+
+
+/* Handle */
+.fbookContentContainer::-webkit-scrollbar-thumb {
+  border-radius: 15px; 
+}
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 0 0 10px 0;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff5000; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #eb0000; 
+}
+
+
+@media (min-width: 576px) {
 
 }
 
@@ -243,9 +353,6 @@ TWITTER FEED
     margin-top: 20px;
   }
 
-  .facebook-wrapper {
-    margin-left: 20px;
-  }
 }
 
 @media(min-width:1200px)
@@ -332,8 +439,5 @@ TWITTER FEED
     max-width: 128px;
   }
 
-  .facebook-wrapper
-  {
-    margin:20px;
-  }
+
 }
