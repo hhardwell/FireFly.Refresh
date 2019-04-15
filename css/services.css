@@ -1,0 +1,278 @@
+.services-container {
+  display: flex;
+  justify-content: center;
+}
+
+.services-container h2 {
+  margin-top: 1.5em;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.inner-services-container {
+  margin: 0 1rem;
+  flex:auto;
+}
+
+.diamond-container {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.diamond {
+  flex: 100%;
+  background-position: center;
+  background-size: cover;
+  margin: 7px 0;
+  border-radius: 8px;
+  height: 200px;
+  box-shadow: inset 0 0px 0px 100px rgb(0,0,0,0.3);
+  position: relative;
+}
+
+.diamond h1{
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.diamond i {
+  align-self: center;
+  position: absolute;
+  left: 47%;
+}
+
+.diamond img {
+  display: none;
+}
+
+
+/* HOVER GROW */
+
+.catering,
+.security,
+.hosting{
+  transition: .3s ease-in-out;
+}
+
+.catering:hover,
+.security:hover,
+.hosting:hover {
+  transform: scale(1.1);
+}
+
+
+/* Catering Service */
+
+.catering:hover .inner-diamond img{
+  filter: brightness(0.6);
+}
+
+.text-cont-catering {
+  position: absolute;
+  font-size: 1.5rem;
+  padding-top: 30px;
+  padding-left: 25px;
+  width: 270px;
+  text-align: 0;
+  top: 85px;
+}
+
+.catering:hover i {
+  color: #35ED35;
+}
+
+.catering-text{
+  display: none;
+}
+
+.catering:hover .catering-text{
+  display: block;
+}
+
+
+/* Security Service */
+
+.security:hover .inner-diamond img{
+  filter: brightness(0.6);
+}
+
+.security:hover i {
+  color: #FE7575;
+}
+
+.text-cont-security {
+  position: absolute;
+  font-size: 1.5rem;
+  padding-top: 30px;
+  text-align: center;
+  padding-left: 60px;
+  width: 300px;
+  text-align: 0;
+  top: 85px;  
+}
+
+.security-text{
+  display: none;
+}
+
+.security:hover .security-text{
+  display: block;
+}
+
+/* HOSTING SERVICE */
+
+.text-cont-hosting {
+  position: absolute;
+  font-size: 1.5rem;
+  padding-top: 30px;
+  padding-right: 15px;
+  top: 85px;
+  right: 10px;
+  text-align: right;
+  width: 250px;
+}
+
+.hosting:hover i {
+  color: #1ED2FE;
+}
+
+.hosting:hover .inner-diamond img{
+  filter: brightness(0.6);
+}
+
+.hosting-text{
+  display: none;
+}
+
+.hosting:hover .hosting-text{
+  display: block;
+}
+
+
+
+@media (min-width: 576px) {
+  .inner-services-container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .inner-services-container {
+    max-width: 690px;
+  }
+
+  .services-container h2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .diamond img{
+    display: unset;
+    height: 145%;
+    width: 145%;
+    object-fit: cover;
+    margin: -20%;
+    transform: rotate(-45deg);
+    z-index: -2;
+    position: relative;
+  }
+
+  .inner-diamond::after {
+    content: ' ';
+    position: absolute;
+    background-color: rgb(0,0,0,.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .diamond-content {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    height: 100%;
+    width: 100%;
+    transform: rotate(-45deg);
+  }
+
+  .diamond-container {
+    flex-wrap: nowrap;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .diamond {
+    background-image: unset;
+    box-shadow: unset;
+    overflow: visible;
+    flex: 1;
+  }
+
+  .inner-diamond {
+    overflow: hidden;
+    height: 240px;
+    width: 240px;
+    border-radius: 8px;
+    transform: rotate(45deg);
+    margin: auto;
+  }
+
+  .security {
+    z-index: 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .inner-services-container {
+    max-width: 930px;
+  }
+
+  .services-container h2 {
+    text-align: left;
+  }
+
+  .inner-diamond {
+    height: 300px;
+    width: 300px;
+  }
+
+  .diamond-container {
+    margin-bottom: 15%;
+  }
+
+  .security {
+    margin: 0 -120px;
+  }
+
+  .diamond-content {
+    font-size: 1.25em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .inner-services-container {
+    max-width: 1110px;
+  }
+
+  .inner-diamond {
+    height: 360px;
+    width: 360px;
+  }
+
+  .diamond-container {
+    margin-bottom: 20%;
+  }
+
+  .diamond-content {
+    font-size: 1.5em;
+  }
+
+}

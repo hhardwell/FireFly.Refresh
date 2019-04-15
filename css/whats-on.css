@@ -1,0 +1,330 @@
+/* Styles for the what's on page */
+
+.event:hover .eventinfo {
+  display: unset;
+}
+
+  .title {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .title a {
+    text-decoration: none;
+  }
+
+  .opening-blurb {
+    font-size: 1rem;
+      color: white;
+      padding: 1.5rem;
+      line-height: 1.5rem;
+      border-radius: 5px;
+  }
+
+  .magic-card {
+    border-radius: 5px;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .magic-card p {
+    margin-bottom: 0;
+  }
+.intro {
+  padding: 1.5rem;
+    line-height: 1.5rem;
+}
+.events-title {
+  margin: 2rem 0;
+}
+div.slick-slider {
+  display: none;
+}
+.calendar {
+  display: none;
+}
+
+.magic-highlight {
+  display: block;
+}
+.mh-1-top img,
+.mh-2-top img,
+.mh-3-top img {
+  width: 100%;
+object-fit: cover;
+margin-bottom: -5px;
+}
+.mh-1-bottom p,
+.mh-2-bottom p,
+.mh-3-bottom p {
+  color: white;
+  padding: 1.5rem
+}
+.mh-1-bottom h5,
+.mh-2-bottom h5,
+.mh-3-bottom h5 {
+  color: white;
+  padding: 0.8rem 1.5rem;
+}
+
+.mh-1-bottom h4,
+.mh-2-bottom h4,
+.mh-3-bottom h4 {
+  padding-left: 1.5rem;
+}
+
+
+.altCalendar {
+  display: block;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.altText {
+  color: white;
+  padding: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.opening {
+  border-radius: 5px;
+}
+
+.card-top img {
+  object-fit: cover;
+}
+
+.calendar {
+  width: fit-content;
+}
+/* sets carousel to be full width below 992px and allows bootstrap container to handler margins at larger screen sizess*/
+@media (max-width: 992px) {
+  div.highlights {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 400px){
+.magic-highlight {
+  display: none;
+}
+.title {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.title a {
+  text-decoration: none;
+}
+
+.opening-blurb {
+  font-size: 1rem;
+    color: white;
+    padding: 1.5rem;
+    line-height: 1.5rem;
+    border-radius: 5px;
+}
+
+.intro {
+  padding: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.highlights button {
+  display: none !important;
+}
+div.highlights {
+  display: flex;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+
+}
+.events-title {
+ margin: 2.5rem 0
+}
+.card-top img {
+  height: 20rem;
+  width: 100%;
+}
+
+.card-bottom {
+  padding: 1.5rem;
+  color: white;
+  height: 10rem;
+}
+
+.card-bottom p {
+  display: none;
+}
+.events-title {
+  text-align: center;
+}
+.eventCard {
+  width: 100%;
+}
+.calendar {
+  display: none;
+}
+
+.altCalendar {
+  display: block;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.altText {
+  color: white;
+  padding: 1.5rem;
+  line-height: 1.5rem;
+}
+}
+
+@media (min-width: 576px) {
+  .title {
+    margin: 2rem 0;
+    font-size: 4rem;
+  }
+
+  .title a {
+    text-decoration: none;
+  }
+
+  /* Opening statement */
+
+  .opening-blurb  {
+    font-size: 1.5rem ;
+  }
+
+  .intro {
+    font-size: 1.5rem;
+  }
+
+  .opening p {
+    margin: 1rem;
+  }
+
+  .opening {
+    padding: 2rem;
+    border-radius: 5px;
+  }
+
+  .card-bottom p {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+
+
+.altCalendar {
+  display: none;
+}
+
+
+
+/* Month's Highlights */
+.highlights {
+  width: 100%;
+  display: flex;
+  border-radius: 5px;
+  text-align: left;
+
+
+}
+.events-title {
+ margin: 2.5rem 0;
+ text-align: left;
+}
+
+
+.card-bottom {
+  padding: 1.5rem;
+  color: white;
+  height: 40rem;
+}
+
+
+.card-top img {
+  width: 100%;
+}
+
+
+.eventCard {
+  display: flex;
+  flex-direction: row;
+}
+
+.slick-list {
+  height: 20rem;
+  border-radius: 5px;
+}
+
+.slick-initialized,
+.slick-slide,
+.slick-current,
+.slick-active {
+  display: flex !important;
+}
+
+
+
+/* CALENDAR CSS */
+
+.calendar {
+  display: block;
+  text-align: center;
+  margin: 4rem auto;
+  color: white;
+  padding: 4rem;
+  border-radius: 5px;
+  position: relative;
+}
+
+.calendar table {
+margin: auto;
+}
+
+.calendar table td {
+  padding: 2rem;
+  font-size: 1.4rem;
+}
+
+.event {
+  text-decoration: underline;
+  color: #ff5000;
+  cursor: pointer;
+  position: relative;
+}
+
+.eventinfo{
+  display: none;
+  z-index: 10;
+  position: absolute;
+  border-style: inset;
+  font-size: 1rem;
+  background-color: #333d47;
+  padding: 1rem;
+  border: 2px solid #ff5000;
+  width: 200px;
+  left: calc(50% - 100px);
+}
+
+.event1info {
+  top: calc(100%);
+}
+
+.event2info {
+  top: calc(100%);
+}
+
+.event3info {
+  bottom: calc(100%);
+}
+
+}
