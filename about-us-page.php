@@ -39,32 +39,32 @@
         <div class="staff-image-container">
           <div class="staff">
             <img class="img-fluid" src="images/staff-images/kayleigh-hall.jpg">
-            <p>Kayleigh Hall</p>
+            <p>Kayleigh Hall, Owner</p>
           </div>
 
           <div class="staff">
             <img class="img-fluid" src="images/staff-images/matt-hir.jpg">
-            <p>Name and Role </p>
+            <p>Hugh Jazz, Co-Owner </p>
           </div>
 
           <div class="staff">
             <img class="img-fluid" src="images/staff-images/alex-chenery-howes.jpg">
-            <p>Name and Role </p>
+            <p>Wayne Kerr, Project Manager </p>
           </div>
 
           <div class="staff">
             <img class="img-fluid"src="images/staff-images/kayleigh-halls.jpg">
-            <p>Name and Role </p>
+            <p>Lucinda Rear, Event Organisers </p>
           </div>
 
           <div class="staff">
             <img class="img-fluid"src="images/staff-images/andrew-hall.jpg">
-            <p>Name and Role </p>
+            <p>Mike Literous, Event Organisers </p>
           </div>
 
           <div class="staff">
             <img class="img-fluid"src="images/staff-images/andrew-halls.jpg">
-            <p>Name and Role </p>
+            <p>Drew P. Wiener, Event Organisers </p>
           </div>
         </div>
       </div>
