@@ -277,11 +277,6 @@ TWITTER FEED
   align-self: center;
 }
 
-::-webkit-scrollbar {
-  width: 15px;
-  overflow: hidden
-}
-
 
 /* Handle */
 .fbookContentContainer::-webkit-scrollbar-thumb {
@@ -289,22 +284,6 @@ TWITTER FEED
 }
 
 
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 0 0 10px 0;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #ff5000; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #eb0000; 
-}
 
 
 @media (min-width: 576px) {

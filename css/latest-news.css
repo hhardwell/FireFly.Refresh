@@ -30,6 +30,7 @@ a:hover {
 
 /* content cards */
 .card-container {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -38,12 +39,17 @@ a:hover {
 }
 
 .news-card {
-  flex: 1 1 90%;
   text-align: center;
   padding: 1.5em;
   padding-bottom: 2em;
   color: white;
   position: relative;
+  width: 300px;
+}
+
+.first-card,
+.news-card:nth-of-type(2){
+  margin-right: 40px;
 }
 
 .news-container h2 {
@@ -54,7 +60,7 @@ a:hover {
 .news-card .article-text {
   position: relative;
   margin-bottom: 2em;
-  height: 3em;
+  height: 7.5em;
   overflow: hidden;
 }
 
@@ -154,7 +160,7 @@ a:hover {
 
   .news-card p {
     height: unset;
-    max-height: 6em;
+    max-height: 10em;
   }
 
   .card-container {
@@ -163,7 +169,6 @@ a:hover {
 
   .news-card {
     flex: 1 1 30%;
-    margin: 10px 0;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
@@ -184,7 +189,6 @@ a:hover {
   }
 
   .news-card h3 {
-    margin: 0 1em;
     margin-bottom: .25em;
   }
 
@@ -216,7 +220,6 @@ a:hover {
   }
 
   .news-card h3 {
-    margin: 0 2em;
     margin-bottom: .5em;
   }
 
@@ -241,13 +244,11 @@ a:hover {
 
   .news-card h3 {
     font-size: 2.25em;
-    margin: 0 2em;
     margin-bottom: .75em;
   }
 
   .news-card p {
     height: auto;
-    margin: 0 0.5em;
     margin-bottom: 2em; }
 
   .news-card p::after {

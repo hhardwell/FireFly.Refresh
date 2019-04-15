@@ -10,9 +10,11 @@
  <body>
    <div class="services-container">
      <div class="inner-services-container">
-       <h2 class="header-font color-grey">Services</h2>
-       <h3>Hover over the options below to find out more</h3>
-       <div class="diamond-container title-font">
+        <div class='ServiceTitle'>
+          <h2 class="header-font color-grey">Services</h2>
+          <p>(Hover over the options below to find out more)</p>
+        </div>
+        <div class="diamond-container title-font">
          
           <div class="diamond catering">
            <div class="inner-diamond cateringInner">
