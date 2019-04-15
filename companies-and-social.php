@@ -12,16 +12,6 @@
 </head>
 <body>
   <div class="container companies-and-social-wrapper">
-    <!-- Event sponsoring companies -->
-    <div class="container sponsoring-companies-wrapper">
-      <!-- List for the sponsoring companies -->
-      <div>
-        <img src="images/companies/capital-management.png" alt="Capital Management Logo"/>
-        <img src="images/companies/vfestival.png" alt="V Festival"/>
-        <img src="images/companies/festival-republic.png" alt="Festival Republic"/>
-        <img src="images/companies/summer-camp.png" alt="Summer Camp"/>
-      </div>
-    </div>
     <!-- Facebook feed -->
     <div class="container facebook-wrapper">
       <div class="card">
@@ -46,6 +36,18 @@
         </div>
       </div>
     </div>
+
+    <!-- Event sponsoring companies -->
+    <div class="container sponsoring-companies-wrapper">
+      <!-- List for the sponsoring companies -->
+      <div>
+        <img src="images/companies/capital-management.png" alt="Capital Management Logo"/>
+        <img src="images/companies/vfestival.png" alt="V Festival"/>
+        <img src="images/companies/festival-republic.png" alt="Festival Republic"/>
+        <img src="images/companies/summer-camp.png" alt="Summer Camp"/>
+      </div>
+    </div>
+    
     <!-- Twitter feed -->
     <div class="container twitter-wrapper">
       <div class="card">

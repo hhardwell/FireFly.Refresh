@@ -30,11 +30,9 @@
             </div>
           </div>
           <div class='news-card'>
-            <h3 class='title-font'>News Title 2</h3>
+            <h3 class='title-font'>Verified on Bleater</h3>
             <p class='description-font article-text'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nam molestie ex vel tempor sagittis. Morbi et felis a felis tempor accumsan at consectetur nulla.
-              Donec vel orci ut nibh congue fringilla. Fusce vel luctus eros.
+              We love goats so much after the new Goat event we got verified with the purple tick on Bleater.
             </p>
             <div>
               <a href='/latest-news.php#news-2' class='read-more news-button'>
@@ -43,11 +41,9 @@
             </div>
           </div>
           <div class='news-card'>
-            <h3 class='title-font'>News Title 3</h3>
+            <h3 class='title-font'>Super Secret Project</h3>
             <p class='description-font article-text'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nam molestie ex vel tempor sagittis. Morbi et felis a felis tempor accumsan at consectetur nulla.
-              Donec vel orci ut nibh congue fringilla. Fusce vel luctus eros.
+              We have been given a super secret project, all we can say is that it involves
             </p>
             <div>
               <a href='/latest-news.php#news-3' class='read-more news-button'>
