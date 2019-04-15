@@ -37,15 +37,11 @@
     <div class="testi-logo-home ">
       <img class= "img-fluid" src="images/companies/festival-republic.png">
     </div>
-
       <p>"FireFly Events did a great job setting up and helping us one of our first venues. We will definitely be using them again."</p>
-
   </div>
 
   <div class="main-container container-format-home">
-
-      <p>"FireFly Events did a great job setting up and helping us one of our first venues. We will definitely be using them again."</p>
-
+      <p>"Thank You! What a great day and so well organised! Everything was perfect from the food, to the photo booth, to the face painters, it was all perfect. Couldn’t fault anything."</p>
     <div class="testi-logo-home ">
       <img class= "img-fluid" src="images/companies/capital-management.png">
     </div>
@@ -55,9 +51,7 @@
     <div class="testi-logo-home ">
       <img class= "img-fluid" src="images/companies/summer-camp.png">
     </div>
-
-      <p>"FireFly Events did a great job setting up and helping us one of our first venues. We will definitely be using them again."</p>
-
+      <p>"You took away all the hassle and all the stress, and made having the event run smoother than past and made it much more fun for everyone."</p>
   </div>
 
   <a href="/testimonials-page.php"><button class="read-more testi-button"> Read More... </button></a>
