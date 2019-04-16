@@ -37,18 +37,18 @@
     </div>
   </div>
   <div class="row text-center mt-2 mb-4">
-    <div class="col-lg-5 mx-auto mb-4">
+    <div class="col-lg-6 mx-auto mb-4">
       <img class="map-location" src="./images/google-maps.PNG" alt="Location">
     </div>
-    <div class="col-lg-5 mx-auto text-center">
+    <div class="col-lg-6 mx-auto my-auto text-center">
       <p>
         69 Cockermouth <br>
         Lake District <br>
         CA13 9RX <br>
       </p>
       <p>
-      <a class="text-dark" href="#">info@fireflyevents.com</a> <br>
-      <a class="text-dark" href="#">+44 7589 623594</a>
+      <a class="contact-link" href="#">info@fireflyevents.com</a> <br>
+      <a class="contact-link" href="#">+44 7589 623594</a>
       </p>
     </div>
   </div>
