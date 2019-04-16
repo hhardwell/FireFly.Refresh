@@ -22,7 +22,6 @@ footer {
   max-width: 100px;
 }
 
-
 .fa-facebook,
 .fa-instagram {
   font-size: 1.5rem;
@@ -33,7 +32,13 @@ li {
   list-style-type: none;
 }
 
+.logo-footer>a:hover>.fa-facebook {
+  color: #3b5998;
+}
 
+.logo-footer>a:hover>.fa-instagram {
+  color: #833AB4;
+}
 
 @media (min-width: 576px) {
   

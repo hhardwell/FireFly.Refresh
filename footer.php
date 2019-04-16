@@ -21,7 +21,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <ul>
+        <ul class="text-center">
           <li><a class="footer-nav-item nav-link" href="/">Home</a></li>
           <li><a class="footer-nav-item nav-link" href="/whats-on.php">What's On</a></li>
           <li><a class="footer-nav-item nav-link" href="/about-us-page.php">About Us</a></li>

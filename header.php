@@ -6,7 +6,7 @@
  -->
 
 <head>
-  <link rel="stylesheet" type="text/css" href="css/header.css">
+  
   <link rel="icon" type="x-icon" href="./images/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jQuery library -->
@@ -17,6 +17,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> <!-- Slick styles -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> <!-- Slick styles -->
   <link rel="stylesheet" type="text/css" href="css/site.css"> <!-- includes the preset site font sizes, font styles and colours -->
+  <link rel="stylesheet" type="text/css" href="css/header.css">
   <link rel="stylesheet" type="text/css" href="css/contact-us.css">
   <link rel="stylesheet" href="css/footer.css">
 </head>
